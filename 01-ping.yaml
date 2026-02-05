@@ -3,3 +3,4 @@
   tasks:
    - name: pinging the server
      ansible.builtin.debug:
+      msg: "Hello Divya"
