@@ -1,13 +1,3 @@
-# - name: variable
-#   hosts: localhost
-#   vars:
-#    Topic: ansible
-#    Duration: 1 week
-#   tasks:
-#   - name: print information
-#     ansible.builtin.debug:
-#      msg: "I am practicing {{Topic}} for my interview, duration is {{Duration}}"
-
 - name: variables
   hosts: localhost
   vars:
@@ -16,4 +6,4 @@
   tasks:
   - name: print information
     ansible.builtin.debug:
-     msg: "I am practicing {{Topic}} for my interview, duration is {{Time}}
+     msg: "I am practicing {{Topic}} for my interview, duration is {{Time}}"
