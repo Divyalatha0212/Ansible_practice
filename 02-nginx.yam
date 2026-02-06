@@ -3,7 +3,7 @@
   become: yes # giving root access
   tasks:
   - name: installing nginx
-    ansible.builtin.debug:
+    ansible.builtin.packages:
      name: nginx
      state: lates
   - name: start nginx
