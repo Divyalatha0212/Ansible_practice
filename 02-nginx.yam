@@ -2,8 +2,8 @@
   hosts: web
   become: yes # giving root access
   tasks:
-  - name: installing nginx
-    ansible.builtin.packages:
+  - name: install nginx
+    ansible.builtin.dnf:
      name: nginx
      state: lates
   - name: start nginx
