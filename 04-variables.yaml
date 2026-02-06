@@ -16,4 +16,4 @@
   tasks:
   - name: print information
     ansible.builtin.debug:
-     msg: "I am practicing {{ansible}} for my interview, duration is {{Time}}
+     msg: "I am practicing {{Topic}} for my interview, duration is {{Time}}
