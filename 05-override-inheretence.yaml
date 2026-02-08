@@ -1,0 +1,13 @@
+- name: Override and Inheretence
+  hosts: localhosts
+  vars:
+   Course: "Ansible"
+   Trainer: "Divya"
+   Duration: "10 hours"
+   tasks:
+   - name: print override information
+     vars: # here we are declaring varibales in tasks level
+      Course: "AWS"
+     ansible.builtin.debug:
+      msg: "Hello, I am Practicing {{Course}}, Tariner is {{Divya}} and Duration is {{Duration}}"
+   -   
