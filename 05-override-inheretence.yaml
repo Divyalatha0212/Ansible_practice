@@ -13,4 +13,4 @@
 
   - name: print inheretence information
     ansible.builtin.debug:
-     msg: "hello, I am practicing {{Course}}, Trainer is {{trainer}} and Duration is {{Duration}}"   
+     msg: "hello, I am practicing {{Course}}, Trainer is {{Trainer}} and Duration is {{Duration}}"   
