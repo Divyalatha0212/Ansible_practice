@@ -10,7 +10,8 @@
      Course: "AWS"
     ansible.builtin.debug:
      msg: "Hello, I am Practicing {{Course}}, Trainer is {{Trainer}} and Duration is {{Duration}}"
-
-  - name: print inheretence information
+  - name: print inheretence information # here it print ths playlevel varibles
+    vars:
+     Course: "DevOps"
     ansible.builtin.debug:
      msg: "hello, I am practicing {{Course}}, Trainer is {{Trainer}} and Duration is {{Duration}}"   
