@@ -11,11 +11,10 @@
     ansible.builtin.debug:
      msg: "Userinfo: {{ USER }}"
 
-  tasks:
   - name: creat user
     ansible.builtin.command: useradd expense
     when: USER.rc ! = 0 
-    
+
   - name: say Hello
     ansible.builtin.debug:
      msg: " Hello"  
