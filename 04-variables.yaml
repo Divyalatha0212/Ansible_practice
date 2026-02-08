@@ -3,7 +3,7 @@
   vars:
    Topic: ansible
    Duration: 10 hours
-  taks:
-  - name: information
+  tasks:
+  - name: print information
     ansible.builtin.debug:
-     msg: "Hi, I am learning {{Topic}}, duration is {{Duration}}." 
+     msg: "Hi, I am learning {{Topic}}, duration is {{Duration}}."
