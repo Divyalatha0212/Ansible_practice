@@ -9,4 +9,4 @@
     vars: # here we are declaring varibales in tasks level
      Course: "AWS"
     ansible.builtin.debug:
-    msg: "Hello, I am Practicing {{Course}}, Trainer is {{Divya}} and Duration is {{Duration}}"
+     msg: "Hello, I am Practicing {{Course}}, Trainer is {{Trainer}} and Duration is {{Duration}}"
