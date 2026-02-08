@@ -1,13 +1,3 @@
-# - name: variables
-#   hosts: localhost
-#   vars:
-#    Topic: ansible
-#    Time: 1 week
-#   tasks:
-#   - name: print information
-#     ansible.builtin.debug:
-#      msg: "I am practicing {{Topic}} for my interview, duration is {{Time}}"
-
 - name: variables
   hosts: localhost
   vars:
