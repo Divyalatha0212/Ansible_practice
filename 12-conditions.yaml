@@ -1,0 +1,12 @@
+- name: conditions
+  hosts: localhost
+  become: yes  #take root user
+  
+  tasks:
+  - name: Check user exsist or not
+    ansible.builtin.command: id expense
+    register: USER
+    ignore_errors: true
+  - name: Print user information
+    ansible.builtin.debug:
+     msg: "Userinfo: {{ USER }}"
