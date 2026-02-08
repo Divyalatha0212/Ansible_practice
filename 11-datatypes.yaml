@@ -1,0 +1,19 @@
+- name: conditions
+  hosts: localhost
+  vars:
+   Course: DevOps with AWS #string
+   Tools: #list
+   - Linux
+   - Shell
+   - AWS
+   Experience: # this is map/directory
+    DevOps: 4
+    AWS: 2
+    Docker: 4
+   Realproject: true #boolean
+
+  tasks:
+  - name: print variable
+    ansible.builtin.debug:
+     msg: "Course: {{ Course }}, Tools: {{ Tools }}, Experience is :{{ Experience }}, Is real Project:{{ Realproject }}"
+     
