@@ -7,6 +7,6 @@
   tasks:
   - name: print override information
     vars: # here we are declaring varibales in tasks level
-    Course: "AWS"
+     Course: "AWS"
     ansible.builtin.debug:
-    msg: "Hello, I am Practicing {{Course}}, Tariner is {{Divya}} and Duration is {{Duration}}"
+    msg: "Hello, I am Practicing {{Course}}, Trainer is {{Divya}} and Duration is {{Duration}}"
