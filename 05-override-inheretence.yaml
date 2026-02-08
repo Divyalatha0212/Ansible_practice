@@ -1,5 +1,5 @@
 - name: Override and Inheretence
-  hosts: localhosts
+  hosts: localhost
   vars:
    Course: "Ansible"
    Trainer: "Divya"
