@@ -10,3 +10,7 @@
      Course: "AWS"
     ansible.builtin.debug:
      msg: "Hello, I am Practicing {{Course}}, Trainer is {{Trainer}} and Duration is {{Duration}}"
+
+  - name: print inheretence information
+    ansible.builtin.debug:
+     msg: "hello, I am practicing {{Course}}, Trainer is {{trainer}} and Duration is {{Duration}}"   
