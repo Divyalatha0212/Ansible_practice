@@ -3,9 +3,9 @@
   vars:
    Course: DevOps with AWS #string
    Tools: #list
-   - Linux
-   - Shell
-   - AWS
+    - Linux
+    - Shell
+    - AWS
    Experience: # this is map/directory
     DevOps: 4
     AWS: 2
