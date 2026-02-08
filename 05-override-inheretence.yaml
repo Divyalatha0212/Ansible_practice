@@ -10,4 +10,3 @@
       Course: "AWS"
      ansible.builtin.debug:
       msg: "Hello, I am Practicing {{Course}}, Tariner is {{Divya}} and Duration is {{Duration}}"
-   -   
